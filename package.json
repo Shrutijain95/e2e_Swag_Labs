@@ -1,0 +1,20 @@
+{
+  "name": "playwright-e2e-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "npx playwright show-report",
+    "e2e": "playwright test && npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "Shruti Jain",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.39.0",
+    "@types/node": "18.14.0",
+    "playwright": "^1.39.0",
+    "typescript": "^5.2.2"
+  }
+}
